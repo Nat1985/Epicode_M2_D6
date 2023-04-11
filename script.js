@@ -29,3 +29,36 @@ changeBackground("grey"); */
 changeFooter("Nuovo indirizzo"); */
 
 // ESERCIZIO 10:
+
+/* function addClass(className) {
+    let aElement = document.getElementsByTagName("a");
+    for (i = 0; i < aElement.length; i ++) {
+        aElement[i].classList.add(className);
+        console.log(aElement[i]);
+    }
+}
+
+addClass("nuova-classe"); */
+
+//ESERCIZIO 11:
+
+/* function toggleClass() {
+    let myImg = document.getElementsByTagName("img");
+    for (i = 0; i < myImg.length; i ++) {
+        myImg[i].classList.toggle("invisible");
+    }
+    console.log(myImg);
+}
+
+toggleClass(); */
+
+//ESERCIZIO 12:
+
+function newColor(color) {
+    let myPrice = document.getElementsByClassName("price");
+    for (i = 0; i < myPrice.length; i ++) {
+        myPrice[i].style.color = color;
+    }
+}
+
+newColor("#346576");

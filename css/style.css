@@ -77,3 +77,7 @@ footer {
 footer span {
     margin-left: 5px;
 }
+
+.invisible {
+    display: none;
+}
