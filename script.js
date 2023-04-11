@@ -21,9 +21,11 @@ changeBackground("grey"); */
 
 // ESERCIZIO 9:
 
-function changeFooter(newUrl) {
-    let footerTook = document.getElementsByTagName("footer.span");
-    console.log(footerTook);
+/* function changeFooter(newUrl) {
+    let footerTook = document.getElementsByClassName("url");
+    footerTook = footerTook[0].innerText = newUrl;
 }
 
-changeFooter("Nuovo indirizzo");
+changeFooter("Nuovo indirizzo"); */
+
+// ESERCIZIO 10:
