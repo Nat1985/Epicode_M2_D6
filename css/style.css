@@ -63,3 +63,17 @@ a:link, a:active, a:visited {
 div span:last-child {
     margin: 10px;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+footer span {
+    margin-left: 5px;
+}
