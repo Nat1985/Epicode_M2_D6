@@ -54,11 +54,11 @@ toggleClass(); */
 
 //ESERCIZIO 12:
 
-function newColor(color) {
+/* function newColor(color) {
     let myPrice = document.getElementsByClassName("price");
     for (i = 0; i < myPrice.length; i ++) {
         myPrice[i].style.color = color;
     }
 }
 
-newColor("#346576");
+newColor("#346576"); */
